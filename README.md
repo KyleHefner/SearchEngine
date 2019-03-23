@@ -20,3 +20,4 @@ Search Engine technique:
 The Search Engine program unserializes the memory file for the index and asks the user for queries to search against it. For multiple word queries, only webpages that contain all words will be returned. The search function ranks each page by tfidf value for each word. It returns the top 20 urls for a given query
 
                   
+NOTE: Inverted_index.dmp and WEB_PAGES_RAW directory are not included due to size restraints. Search Engine program will not run, but can still be viewed
